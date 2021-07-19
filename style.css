@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+/* header section css  */
+
+.banner-container{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: #2D25A0;
+}
+
+.menu-bar{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.menu-bar span{
+    padding: 10px 20px;
+
+}
+
+.menu-bar span:last-child{
+    margin-left: 500px;
+    background-color: #E02C6D;
+}
+.menu-bar span a{
+color: white;
+text-decoration: none;
+}
+
+.title-image-section{
+    
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+.title{
+    width: 45%;
+    margin-bottom: 86px;
+}
+.title h2{
+    font-size: 64px;
+    color: white;
+    margin-left: 156px;
+}
+
+.title button{
+    margin-left: 156px;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+}
+
+.title-image{
+    width: 55%;
+    margin-bottom: 86px;
+}
+
+.title-image img{
+    width: 80%;
+    margin-right: 140px;
+}
+/* ------------ */
+
+/* players section css  */
+
+.all-players{
+    width: 100%;
+    background-color: white;
+   
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding-top: 100px; */
+    margin: 100px auto;
+}
+.player-card{
+    width: 60%;
+    /* margin-left: 18%; */
+    margin-top: 5%;
+    box-shadow: 0px 0px 40px 0px #00000026;
+}
+
+.left-card{
+    margin-left: 40%;
+}
+.middle-card{
+    margin-left: 20%;
+}
+.right-card{
+   
+   
+}
+
+.player-card .player-info{
+    width: 90%;
+    margin: 5%;
+}
+
+.player-info img{
+    width: 100%;
+}
+
+.player-detail h3{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 0px
+}
+.player-detail p{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
