@@ -20,16 +20,15 @@ body{
 
 .menu-bar span{
     padding: 10px 20px;
-
 }
-
 .menu-bar span:last-child{
     margin-left: 500px;
     background-color: #E02C6D;
 }
+
 .menu-bar span a{
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .title-image-section{
@@ -47,6 +46,11 @@ text-decoration: none;
     font-size: 64px;
     color: white;
     margin-left: 156px;
+    transition-property: font-size;
+}
+.title h2:hover{
+    font-size: 66px;
+    transition-duration: 0.8s;
 }
 
 .title button{
@@ -55,17 +59,33 @@ text-decoration: none;
     background-color: #E02C6D;
     color: white;
     font-size: 16px;
+    transition-property: padding;
 }
-
+.title button:hover{
+    padding: 15px 25px;
+    transition-duration: 0.9s;
+}
 .title-image{
     width: 55%;
     margin-bottom: 86px;
+    transition-property: width;
+}
+
+.title-image:hover{
+    width: 58%;
+    transition: 0.9s linear;
 }
 
 .title-image img{
     width: 80%;
     margin-right: 140px;
+    transition-property: width;
 }
+
+/* .title-image img:hover{
+    width: 85%;
+    transition: 0.9s linear;
+} */
 /* ------------ */
 
 /* players section css  */
